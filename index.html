@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page1">
+        <div class="nav">
+            <h1>Portfolio.</h1>
+            <ul>
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href=".page2">Skills</a>
+                <a href="">Services</a>
+                <a href="">Contact me</a>
+                <button>Hire me</button>
+            </ul>
+        </div>
+
+        <div class="info">
+            <div class="left">
+                <h2>Hi,<br> My name is <span>Utsav Gupta</span><br>
+                I am a <br> <span id="element"></span>
+                <br>from Delhi, India</h2>
+                <p>Creative and detail-oriented Front-End Developer with expertise in crafting responsive, user-friendly web interfaces. Proficient in HTML, CSS and Javascript and with modern day library like React.</p>
+                <button class="btn">Experience</button>
+            </div>
+            <div class="right">
+                    <img src="https://wallpapers.com/images/featured/developer-png-9wxnnbpbatv5o2dn.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="page2">
+        <h1>Check out my Projects:</h1>
+        <div class="projects">
+            <div class="card">
+                <h2>Bubble Game</h2>
+                <img src="./Screenshot (102).png" alt="">
+            </div>
+            <div class="card">
+                <h2><a href="https://cine-vibe-app.vercel.app/"></a>Tic-Tac-Toe Game</h2>
+                <img src="https://us1.discourse-cdn.com/bubble/original/3X/4/c/4c583a00f6a44768aa32b706547ae96f0162f1a3.png" alt="">
+            </div>
+            <div class="card">
+                <h2>Weather App</h2>
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*fbLb3jkm3V_m4Mo5bmYJMg.png" alt="">
+            </div>
+            <div class="card">
+                <h2>To-Do App </h2>
+                <img src="https://1.bp.blogspot.com/-i78iKr_P9Pk/X9ohjXyc5eI/AAAAAAAAA_4/8UauxZaOgUshGK7MXwW1gZqts7Zrf_AewCLcBGAsYHQ/s1280/Todo%2BList%2BApp%2Busing%2BHTML%2BCSS%2B%2526%2BJavaScript.webp" alt="">
+            </div>
+            <div class="card">
+                <h2>Random Password Generator </h2>
+                <img src="https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flio1nb6pdyamemd4q423.jpg" alt="">
+            </div>
+            <div class="card">
+                <h2>Quiz App </h2>
+                <img src="https://www.sourcecodester.com/sites/default/files/images/rems/qa.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="page3">
+
+    </div> -->
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['B-Tech student','Web Designer', 'Frontend Developer'],
+          typeSpeed: 110,
+        });
+      </script>
+</body>
+
+</html>
